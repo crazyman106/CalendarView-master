@@ -1,9 +1,7 @@
 # CalendarView
 
-
         mCalendarView.setOnClickDate(new CalendarView.OnClickListener() {
-            
-            @Override
+            @Override
             public void onClickDateListener(int year, int month, int day) {
                 Toast.makeText(getApplication(), year + "-" + month + "-" + day , Toast.LENGTH_SHORT).show();
             }
@@ -18,4 +16,5 @@
                 Toast.makeText(MainActivity.this, "上个月", Toast.LENGTH_SHORT).show();
             }
         });
+
 
