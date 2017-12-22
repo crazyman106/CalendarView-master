@@ -1,7 +1,7 @@
 # CalendarView
 
 
- mCalendarView.setOnClickDate(new CalendarView.OnClickListener() {
+        mCalendarView.setOnClickDate(new CalendarView.OnClickListener() {
             
             @Override
             public void onClickDateListener(int year, int month, int day) {
